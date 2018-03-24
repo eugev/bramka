@@ -1,0 +1,162 @@
+html, body {
+    font-family: sans-serif;
+}
+
+/* Navigation Bar */
+.pekao-nav {
+    background-color: rgb(255, 255, 255);
+}
+
+a.language-button {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+.form-control{
+	width:25px !important;
+	height:25px !important;
+	font-size:12px;
+	display:inline-block;
+	padding:3px !important;
+	text-align:center !important;
+
+}
+.mergerty{
+	color:white;
+	margin-left:6px;
+}
+
+.navbar-default {
+    border-width: 0px;
+}
+
+.active a {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Top Nav Tab */
+.top-nav-tab {
+    border-bottom: 2px solid #FF0000;
+}
+.top-nav-tab li.active a {
+    color: #FFF;
+    background-color: #FF0000;
+    font-size: 12px;
+}
+
+/* Left Content View */
+.firstStepMenu {
+    overflow: hidden;
+    zoom: 1;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.firstStepMenu li {
+    float: left;
+    width: 221px;
+    padding: 0;
+    background: none;
+}
+
+/* Main Content */
+.first-main-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+    border-radius: 10px;
+background: #93999b; /* Old Browsers */
+background: -webkit-linear-gradient(bottom,#93999b,#8d9092); /*Safari 5.1-6*/
+background: -o-linear-gradient(bottom,#93999b,#8d9092); /*Opera 11.1-12*/
+background: -moz-linear-gradient(bottom,#93999b,#8d9092); /*Fx 3.6-15*/
+background: linear-gradient(to top, #93999b, #8d9092); /*Standard*/
+}
+
+.first-main-content .first-row h2 {
+    color: #FFF;
+}
+
+.first-main-content .first-row a {
+    float: right;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.first-main-content .second-row h4 {
+    font-size: 12px;
+    color: #FFF;    
+}
+
+.first-main-content .third-row {
+
+    text-align: right;
+}
+
+.first-main-content .third-row a {
+    font-size: 12px;
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.second-main-content {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F7F7F7;
+    border: 2px solid #6B8F2E;
+    border-radius: 10px;
+}
+
+.third-main-content {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F7F7F7;
+    border: 2px solid #CCC;
+    border-radius: 10px;
+}
+
+/* Footer Tabs */
+.tabbar-inner-padding {
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.footer-tabs img{
+    height: 24px;
+}
+
+.firsttab-content div {
+    padding-top: 15px;
+}
+
+.secondtab-content div {
+    padding-top: 15px;
+}
+
+/* Footer Links */
+.footer-links .links a {
+    text-decoration: underline;
+    color: #87898C;
+    font-size: 14px;
+    padding-right: 15px;
+    white-space: nowrap;
+}
+.footer-links address {
+    float: right;
+    font-size: 14px;
+    color: #BCBCBC;
+    padding: 8px 0 10px;
+}
+
+/* Footer Help */
+.footer-help {
+    font-size: 12px;
+    color: #BCBCBC;
+}

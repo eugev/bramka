@@ -1,0 +1,712 @@
+a#logo {
+    display: block;
+    height: 33px;
+    width: 100px;
+    text-decoration: none;
+	float:left;
+	margin-top: -20px;
+}
+	.image-button {
+		width: 100px;
+		background: url(../images/image-button.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+		margin-left: 100px;
+	}
+	
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+ol, ul {
+    list-style: none;
+}
+
+ul#main-menu {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 0 0 21px;
+    overflow: hidden;
+    background: url(../images/page.png) no-repeat 0 100%;
+    clear: both;
+}
+
+
+body.auth-login #main-menu, body.auth-login_anti_phishing #main-menu, body.auth-logout #main-menu, body.auth-login_with_token #main-menu, body.interpay-login #main-menu, body.interpay-login_anti_phishing #main-menu, body.paybynet-login #main-menu, body.paybynet-login_anti_phishing #main-menu, body.paybynet-login_with_token #main-menu, body.sso-login #main-menu, body.sso-login_anti_phishing #main-menu, body.epuap-login #main-menu, body.epuap-login_anti_phishing #main-menu, body.epuap-login_with_token #main-menu, body.country_node-login #main-menu, body.country_node-login_anti_phishing #main-menu, body.country_node-login_with_token #main-menu, body.bank_node-login #main-menu, body.bank_node-login_anti_phishing #main-menu, body.bank_node-login_with_token #main-menu, body.pue-login #main-menu, body.pue-login_anti_phishing #main-menu {
+    top: 54px;
+}
+
+body.auth-login #main-menu, body.auth-login_anti_phishing #main-menu, body.auth-logout #main-menu, body.auth-login_with_token #main-menu, body.interpay-login #main-menu, body.interpay-login_anti_phishing #main-menu, body.paybynet-login #main-menu, body.paybynet-login_anti_phishing #main-menu, body.paybynet-login_with_token #main-menu, body.sso-login #main-menu, body.sso-login_anti_phishing #main-menu, body.epuap-login #main-menu, body.epuap-login_anti_phishing #main-menu, body.epuap-login_with_token #main-menu, body.country_node-login #main-menu, body.country_node-login_anti_phishing #main-menu, body.country_node-login_with_token #main-menu, body.bank_node-login #main-menu, body.bank_node-login_anti_phishing #main-menu, body.bank_node-login_with_token #main-menu, body.pue-login #main-menu, body.pue-login_anti_phishing #main-menu {
+    height: 75px;
+}
+
+div.box-login, div.box-login-long {
+    width: 315px;
+    height: auto;
+    overflow: visible;
+    border: 4px solid #cddbe6;
+    padding: 42px 16px 12px 12px;
+    background: #fff;
+	margin-bottom:-20px;
+
+}
+.box-login, .box-login-long {
+    display: block;
+    float: left;
+    background: url(../images/box-login.png) no-repeat 0 0;
+    width: 319px;
+    height: 73px;
+    padding: 46px 16px 16px 16px;
+    position: relative;
+    font-size: 11px;
+    margin: 12px 0 0 0;
+    overflow: hidden;
+}
+.form-box, .box-login, .box-error, #dialog_popup .pzkb_box {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+}
+.box-login h1, .box-login-long h1 {
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #102348;
+    background: url(../images/box-login.png) no-repeat 0 0;
+    margin: -46px 4px 16px -16px;
+    padding: 9px 20px 5px 20px;
+    width: 311px;
+
+    position: relative;
+}
+.box-login .holder, .box-login-long .holder {
+    font-size: 12px;
+    position: relative;
+    margin-top: -2px;
+}
+h1.table-title, .box-login h1 {
+    -webkit-border-top-left-radius: 11px;
+    -webkit-border-top-right-radius: 11px;
+    -moz-border-radius-topleft: 11px;
+    -moz-border-radius-topright: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.box-login .login-icon-key, .box-login-long .login-icon-key {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    width: 9px;
+    background: url(../images/box-login.png) no-repeat -220px -135px;
+    margin: 0 8px 0 0;
+}
+@media (min-width:650px) {
+	.layout-page-middle {
+    background: #fff;
+    padding: 1px 12px 1px 12px;
+    min-height: 530px;
+    margin-bottom: -2px;
+    margin-top: -4px;
+	    border-bottom-left-radius: 50px 20px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+}
+.layout-page-middle1 {
+    background: #fff;
+    padding: 1px 12px 1px 12px;
+    min-height: 690px;
+    margin-bottom: -2px;
+    margin-top: -4px;
+	    border-bottom-left-radius: 50px 20px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+}
+
+}
+@media(max-width:650px) {
+	.layout-page-middle {
+		background: #fff;
+		padding: 1px 12px 1px 12px;
+		min-height: 900px;
+		margin-bottom: -2px;
+		margin-top: -4px;
+		    border-bottom-left-radius: 50px 20px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+	}
+	.layout-page-middle1 {
+    background: #fff;
+    padding: 1px 12px 1px 12px;
+    min-height: 1050px;
+    margin-bottom: -2px;
+    margin-top: -4px;
+	    border-bottom-left-radius: 50px 20px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+}
+}
+
+@media(max-width:348px) {
+	.layout-page-middle {
+		background: #fff;
+		padding: 1px 12px 1px 12px;
+		min-height: 890px;
+		margin-bottom: -2px;
+		margin-top: -4px;
+		    border-bottom-left-radius: 50px 20px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+	}
+	.layout-page-middle1 {
+    background: #fff;
+    padding: 1px 12px 1px 12px;
+    min-height: 950px;
+    margin-bottom: -2px;
+    margin-top: -4px;
+	    border-bottom-left-radius: 50px 20px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+}
+	.image-button {
+		width: 100px;
+		background: url(../images/image-button.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+		margin-left: 100px;
+	}
+	
+	.image-button1 {
+		width: 100px;
+		background: url(../images/btn1.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+
+	}
+	.image-button2 {
+		width: 100px;
+		background: url(../images/btnok.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+
+	}
+	
+	div.box-login, div.box-login-long {
+		width: 250px;
+		height: auto;
+		overflow: visible;
+		border: 4px solid #cddbe6;
+		padding: 42px 16px 12px 12px;
+		background: #fff;	    margin-bottom: 0px;
+		margin-left:10px;
+	}
+	.question {
+		display:none;
+	}
+
+	.box-login h1{
+		width:250px;
+	}
+
+}
+@media (min-width:970px) {
+	.mr50 {
+		margin-left:100px;
+		
+	}
+	.container {
+		width:970px;
+	}
+	.image-button {
+    width: 100px;
+    background: url(../images/image-button.png);
+    background-repeat: no-repeat;
+    padding: 0;
+	border: none;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 4px 10px;
+    height: 34px;
+    cursor: pointer;
+	    margin-left: 350px;
+}
+.image-button1 {
+		width: 100px;
+		background: url(../images/btn1.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+		margin-left:70px;
+	}
+	.image-button2 {
+		width: 100px;
+		background: url(../images/btnok.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+
+	}
+.login-spacer {
+    float: left;
+    display: block;
+    width: 54px;
+    height: 73px;
+    margin: 0;
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+}
+
+@media (max-width:970px) and (min-width:768px) {
+	div.box-login, div.box-login-long {
+		width: 315px;
+		height: auto;
+		overflow: visible;
+		border: 4px solid #cddbe6;
+		padding: 42px 16px 12px 12px;
+		background: #fff;
+		margin-bottom: -20px;
+		margin-left:20px;
+	}
+	.question {
+		display:none;
+	}
+}
+@media (max-width:374px) and (min-width:360px) {
+	div.box-login, div.box-login-long {
+		width: 250px;
+		height: auto;
+		overflow: visible;
+		border: 4px solid #cddbe6;
+		padding: 42px 16px 12px 12px;
+		background: #fff;
+		margin-bottom: 10px;
+		margin-left:20px;
+
+	}
+	.question {
+		display:none;
+	}
+	
+	.box-login h1, .box-login-long h1 {
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #102348;
+    background: url(../images/box-login.png) no-repeat 0 0;
+    margin: -46px 4px 16px -16px;
+    padding: 9px 20px 5px 20px;
+    width: 250px;
+
+    position: relative;
+}
+
+.image-button1 {
+		width: 100px;
+		background: url(../images/btn1.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+		margin-left:70px;
+	}
+	.image-button2 {
+		width: 100px;
+		background: url(../images/btnok.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+
+	}
+	
+}
+@media (max-width:412px) and (min-width:375px) {
+	div.box-login, div.box-login-long {
+		width: 315px;
+		height: auto;
+		overflow: visible;
+		border: 4px solid #cddbe6;
+		padding: 42px 16px 12px 12px;
+		background: #fff;
+		margin-bottom: 10px;
+
+	}
+	.question {
+		display:none;
+	}
+}
+@media (max-width:768px) and (min-width:412px) {
+	div.box-login, div.box-login-long {
+		width: 315px;
+		height: auto;
+		overflow: visible;
+		border: 4px solid #cddbe6;
+		padding: 42px 16px 12px 12px;
+		background: #fff;
+		margin-bottom: 0px;
+		margin-left:25px;
+	}
+	.question {
+		display:none;
+	}
+}
+@media (max-width:970px) and (min-width:375px) {
+	
+	.login-spacer {
+    float: left;
+    display: block;
+    width: 0px;
+    height: 73px;
+    margin: 0;
+}
+
+	.question {
+		display:none;
+	}
+	.image-button {
+		width: 100px;
+		background: url(../images/image-button.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+		margin-left: 200px;
+	}
+	.image-button1 {
+		width: 100px;
+		background: url(../images/btn1.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+
+	}
+	.image-button2 {
+		width: 100px;
+		background: url(../images/btnok.png);
+		background-repeat: no-repeat;
+		padding: 0;
+		border: none;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 4px 10px;
+		height: 34px;
+		cursor: pointer;
+
+	}
+}
+body.auth-login div#title-bar, body.auth-login_anti_phishing div#title-bar, body.auth-logout div#title-bar, body.auth-login_with_token div#title-bar, body.interpay-login div#title-bar, body.interpay-login_anti_phishing div#title-bar, body.paybynet-login div#title-bar, body.paybynet-login_anti_phishing div#title-bar, body.paybynet-login_with_token div#title-bar, body.sso-login div#title-bar, body.sso-login_anti_phishing div#title-bar, body.epuap-login div#title-bar, body.epuap-login_anti_phishing div#title-bar, body.epuap-login_with_token div#title-bar, body.country_node-login div#title-bar, body.country_node-login_anti_phishing div#title-bar, body.country_node-login_with_token div#title-bar, body.bank_node-login div#title-bar, body.bank_node-login_anti_phishing div#title-bar, body.bank_node-login_with_token div#title-bar, body.pue-login div#title-bar, body.pue-login_anti_phishing div#title-bar {
+    margin-left: 77px;
+}
+
+.form-box {
+    border: 4px solid #5195c4;
+    padding: 6px 12px;
+    margin: 5px 0 16px 0;
+    background: #fff;
+}
+
+.form-box, .box-login, .box-error, #dialog_popup .pzkb_box {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+}
+
+div.table_list {
+    margin: 4px -6px;
+    min-height: 1px;
+}
+
+.new-navigation h1.table-title {
+    font-size: 17px;
+}
+
+h1.table-title {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background: #64a7cd  repeat-x 0 50%;
+    margin: -10px -16px 13px -16px;
+    padding: 12px 12px 10px 23px;
+    position: relative;
+}
+
+
+
+.image-button:hover {
+background: url(../images/image-button-hover.png);
+background-repeat: no-repeat;
+}
+
+.image-button1:hover {
+background: url(../images/btn1-hover.png);
+background-repeat: no-repeat;
+}
+.image-button2:hover {
+background: url(../images/btnok-hover.png);
+background-repeat: no-repeat;
+}
+.question {
+	 font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background:  url(../images/icon-question.png) no-repeat 0 50%;
+    margin: 10px 16px 13px 16px;
+    padding: 12px 12px 10px 23px;
+    position: relative;
+}
+h1.table-title, .box-login h1 {
+    -webkit-border-top-left-radius: 11px;
+    -webkit-border-top-right-radius: 11px;
+    -moz-border-radius-topleft: 11px;
+    -moz-border-radius-topright: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+body.auth-login input.text_input_cif, body.auth-login_anti_phishing input.text_input_cif, body.auth-login input.text_input_client_id_field, body.auth-login_anti_phishing input.text_input_client_id_field, body.auth-logout input.text_input_cif, body.auth-logout input.text_input_client_id_field, body.auth-login input.text_input_password, body.auth-login_anti_phishing input.text_input_password, body.auth-login input.text_input_password_field, body.auth-login_anti_phishing input.text_input_password_field, body.auth-logout input.text_input_password, body.auth-logout input.text_input_password_field, body.auth-login input.text_input_token_password, body.auth-login_anti_phishing input.text_input_token_password, body.auth-logout input.text_input_token_password, body.auth-login_with_token input.text_input_token_password, body.interpay-login input.text_input_cif, body.interpay-login_anti_phishing input.text_input_cif, body.interpay-login input.text_input_client_id_field, body.interpay-login_anti_phishing input.text_input_client_id_field, body.interpay-login input.text_input_password, body.interpay-login_anti_phishing input.text_input_password, body.interpay-login input.text_input_password_field, body.interpay-login_anti_phishing input.text_input_password_field, body.interpay-login input.text_input_token_password, body.interpay-login_anti_phishing input.text_input_token_password, body.paybynet-login input.text_input_cif, body.paybynet-login_anti_phishing input.text_input_cif, body.paybynet-login_with_token input.text_input_cif, body.paybynet-login input.text_input_client_id_field, body.paybynet-login_anti_phishing input.text_input_client_id_field, body.paybynet-login input.text_input_password, body.paybynet-login_anti_phishing input.text_input_password, body.paybynet-login input.text_input_password_field, body.paybynet-login_anti_phishing input.text_input_password_field, body.paybynet-login input.text_input_token_password, body.paybynet-login_anti_phishing input.text_input_token_password, body.paybynet-login_with_token input.text_input_token_password, body.sso-login input.text_input_cif, body.sso-login_anti_phishing input.text_input_cif, body.sso-login input.text_input_client_id_field, body.sso-login_anti_phishing input.text_input_client_id_field, body.sso-login input.text_input_password, body.sso-login_anti_phishing input.text_input_password, body.sso-login input.text_input_password_field, body.sso-login_anti_phishing input.text_input_password_field, body.sso-login input.text_input_token_password, body.sso-login_anti_phishing input.text_input_token_password, body.epuap-login input.text_input_cif, body.epuap-login_anti_phishing input.text_input_cif, body.epuap-login_with_token input.text_input_cif, body.epuap-login input.text_input_client_id_field, body.epuap-login_anti_phishing input.text_input_client_id_field, body.epuap-login_with_token input.text_input_client_id_field, body.epuap-login input.text_input_password, body.epuap-login_anti_phishing input.text_input_password, body.epuap-login_with_token input.text_input_password, body.epuap-login input.text_input_password_field, body.epuap-login_anti_phishing input.text_input_password_field, body.epuap-login_with_token input.text_input_password_field, body.epuap-login input.text_input_token_password, body.epuap-login_anti_phishing input.text_input_token_password, body.epuap-login_with_token input.text_input_token_password, body.country_node-login input.text_input_cif, body.country_node-login_anti_phishing input.text_input_cif, body.country_node-login_with_token input.text_input_cif, body.country_node-login input.text_input_client_id_field, body.country_node-login_anti_phishing input.text_input_client_id_field, body.country_node-login_with_token input.text_input_client_id_field, body.country_node-login input.text_input_password, body.country_node-login_anti_phishing input.text_input_password, body.country_node-login_with_token input.text_input_password, body.country_node-login input.text_input_password_field, body.country_node-login_anti_phishing input.text_input_password_field, body.country_node-login_with_token input.text_input_password_field, body.country_node-login input.text_input_token_password, body.country_node-login_anti_phishing input.text_input_token_password, body.country_node-login_with_token input.text_input_token_password, body.bank_node-login input.text_input_cif, body.bank_node-login_anti_phishing input.text_input_cif, body.bank_node-login_with_token input.text_input_cif, body.bank_node-login input.text_input_client_id_field, body.bank_node-login_anti_phishing input.text_input_client_id_field, body.bank_node-login_with_token input.text_input_client_id_field, body.bank_node-login input.text_input_password, body.bank_node-login_anti_phishing input.text_input_password, body.bank_node-login_with_token input.text_input_password, body.bank_node-login input.text_input_password_field, body.bank_node-login_anti_phishing input.text_input_password_field, body.bank_node-login_with_token input.text_input_password_field, body.bank_node-login input.text_input_token_password, body.bank_node-login_anti_phishing input.text_input_token_password, body.bank_node-login_with_token input.text_input_token_password, body.pue-login input.text_input_cif, body.pue-login input.text_input_client_id_field, body.pue-login input.text_input_password, body.pue-login input.text_input_password_field, body.pue-login input.text_input_token_password, body.pue-login_anti_phishing input.text_input_cif, body.pue-login_anti_phishing input.text_input_client_id_field, body.pue-login_anti_phishing input.text_input_password, body.pue-login_anti_phishing input.text_input_password_field, body.pue-login_anti_phishing input.text_input_token_password, input.text_input.text_input_new_login, input.text_input.text_input_new_login_repeat {
+    width: 183px;
+}
+div.box-input input, div.box-input select, div.box-input textarea {
+    border: 0;
+    background: #fff;
+    font-size: 100%;
+    margin: 0px;
+}
+
+div.box-input-wrap {
+    overflow: hidden;
+}
+
+div.form-field {
+
+    margin: 0 4px 0 0;
+    width: auto;
+    line-height: 18px;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+}
+div.subfield_widget_help, div.form-field input, div.field_widget_control, div.subfield_widget, div.subfield_widget_control {
+    display: inline;
+}
+
+div.selectBox-html input, div.form-field textarea, div.form-field input, div.form-field select, .FormFieldAdapter input {
+    max-width: 370px;
+    vertical-align: middle;
+    font-family: inherit;
+    font-size: 12px;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+    background: #fff;
+    color: #000;
+    padding: 2px;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+div.table_list .empty-table {
+    padding: 0px 0px;
+}
+div.table_list .empty-table .box-error, div.table_list .empty-table .box-info, div.table_list .empty-table .box-warning {
+    border: none;
+    background-position: 10px 0px;
+    padding: 9px 10px 0px 66px;
+    color: #000;
+    margin-left: 8px;
+    margin-top: 11px;
+}
+info:first-child, div.box-warning:first-child {
+    margin: 5px 0 16px;
+}
+
+.NoInfoViewFieldTd, .InfoViewField, html td.info1endPage p, html div.InfoEndPage p, div.box-error, div.box-info, div.info_box, div.box-warning {
+    display: block;
+    background: url(../images/icon-info.png) no-repeat 24px 21px;
+    padding: 22px 10px 23px 80px;
+    min-height: 48px;
+    border: 4px solid #5399c5;
+    margin: 3px 0;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+    font-size: 12px;
+    color: #102448;
+}
+
+div.box-info, div.info_box {
+    background-position: 24px 26px;
+}
+
+.form-box div.box-info, .form-box div.box-warning {
+    border: 1px solid #5399c5;
+}
+.table_list .message {
+    padding: 8px 15px;
+}
+
+div#title-bar {
+    margin: 0;
+	margin-top:10px;
+    height: 43px;
+    background: url(../images/logo.png) no-repeat 0 0;
+    background-image: url(../images/logo.png);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 19px;
+}
+.wrap-content {
+    margin: 0 0 -1px 0px;
+    max-width: 740px;
+	padding:1px;
+}
+div#bottom-text {
+    color: rgb(255,250,245);
+
+    
+    text-align: center;
+    width: 90%;
+	margin-top:40px;
+    font-size: 10px;
+    text-shadow: -1px 1px 2px #49535C;
+}
+div#deposits-link a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #BCCEDA;
+    text-decoration: none;
+	float:right;
+}
+
+
+.layout-content{
+    background: #fff;
+
+    margin: 3px 0 29px 0;
+	margin-left: 0px !important;
+	    border-bottom-left-radius: 50px 20px;
+
+    border-bottom-right-radius: 25px;
+}
+div#logo-infotip {
+    float: left;
+    margin: -8px 0 0 20px;
+}
+
+div#logo-infotip-icon {
+    float: left;
+    background: url(../images/icons.png) no-repeat ;
+    width: 4px;
+    height: 8px;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+div#logo-infotip-text {
+    float: left;
+    font-size: 12px;
+    color: #265D95;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+}

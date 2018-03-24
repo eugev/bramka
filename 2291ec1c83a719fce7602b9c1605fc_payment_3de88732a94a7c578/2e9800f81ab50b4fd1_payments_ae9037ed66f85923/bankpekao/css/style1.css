@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css?family=Verdana:400,100,200,300,500,600,700);
+
+#footerLog {
+    background-color: #ffffff;
+    background-image: url(images/footer-bg.jpg);
+    float: right;
+    height: 71px;
+    width: 100%;
+    text-align: left;
+}
+
+body{
+	font-family: Verdana, sans-serif;
+	background-color:#f0f0f0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+.container .container {
+    width: 100%;
+}
+
+
+.logowanie__box{
+	background-color: #f7f7f7;
+	height: auto;
+	border: 1px solid #dedede;
+	padding: 20px;
+}
+.logowanie__box h3{
+	font-size: 24px;
+	margin-top:0;
+}
+.logowanie-lft, .logowanie-rgt{
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:30px;
+}
+.logowanie__cont form .form-group{
+	width: 70%;
+}
+.logowanie__cont form .form-group input.form-control{
+	width: 90%;
+	font-size:10px;
+	height: 32px;
+	box-shadow: none;
+
+}
+.logowanie__cont form button {
+    width: 25%;
+	background-color:#00A472;
+	color:#fff;
+	height: 35px;
+	border:1px solid transparent;
+}
+
+.logowanie__cont form button:hover {
+    width: 25%;
+	background-color:#00A472;
+	color:#fff;
+	height: 35px;
+	border:1px solid transparent;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+.logowanie__para p{
+	font-size: 12px;
+	color:#000;
+	font-weight:400;
+	margin-bottom: 0;
+}
+.logowanie__para p a{
+	color:#000;
+	text-decoration: underline;
+}
+.logowanie__para{
+	padding: 30px 0;
+}
+.logowanie__contact span{
+	display: block;
+	line-height: 1.8;
+	font-size: 11px;
+}
+.logowanie__location h3{
+	font-size: 12px;
+	font-weight:400;
+	margin-top: 0;
+    line-height: 16px;	
+}
+.login-area .nav>li>a {
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+.login-area .nav>li>a:hover{
+	background-color:#00A472;
+	color:#fff;
+	border: 1px solid transparent;
+}
+.login-area .nav-tabs>li.active>a, .login-area .nav-tabs>li.active>a:hover, .login-area .nav-tabs>li.active>a:focus{
+	background-color:#00A472;
+	color:#fff;
+	border: 1px solid transparent;
+}
+
+/*==============Media Queries==============*/
+/* 24" large Screens */
+@media only screen and (max-width : 720px) {
+.footerletter{
+	margin-top:0px;
+}
+.logowanie-lft, .logowanie-rgt{
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:0px;
+	padding:10px !important;
+}
+
+.container {
+    padding-left: 30px;
+	padding-right: 30px;
+}
+}
+
+@media  (min-width:720px) {
+	.footerletter{
+	margin-top:180px;
+}
+.logowanie-lft, .logowanie-rgt{
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:30px;
+}
+
+.container {
+    padding-left: 80px;
+	padding-right: 80px;
+}
+
+}
+
+
+/* 22" large Screens */
+@media only screen and (max-width : 1680px) {	}
+
+
+/* 20" large Screens */
+@media only screen and (max-width : 1600px) {	}
+
+
+/* 19" large Screens */
+@media only screen and (max-width : 1440px) {	}
+
+
+/* 13" Notebook Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {	}
+
+
+/* Ubuntu, Medium Screens */
+@media only screen and (max-width : 1198px) {	}
+
+
+/* 12" Notebook & iPad landscape  · width: 1024px */
+@media only screen and (max-width : 1024px) {	}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {	}
+
+
+/*Landscape*/
+@media only screen and (max-width : 960px) {	}
+
+
+/* Kindel Fire HD 8.9in (800x1280) Tablets */
+@media only screen and (max-width : 800px) {	}
+
+
+/* iPad (All) (768x1024) Portrait Tablets */
+@media only screen and (max-width : 768px) {
+
+.login-area .nav>li>a{
+	font-size: 12px;
+    padding: 10px 9px;
+}	
+
+}
+
+/* Lower then iPad (All) (767x---) */
+@media only screen and (max-width : 767px) {	
+
+.login-area .nav>li>a {
+    font-size: 12px;
+    padding: 10px 9px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 0px;
+    margin-right: -1px;
+}
+.logowanie__cont form .form-group{
+	width: 100%;
+}
+.logowanie__cont form button{
+	float: none;
+	width: auto;
+}
+
+}
+
+/*iPhone 6 Plus landscape · width: 736px */
+@media only screen and (max-width : 736px) {	}
+
+/*iPhone 6 landscape · width: 667px */
+@media only screen and (max-width : 667px) {
+
+.login-area .nav>li, .login-area .nav>li>a{
+	width: 100%;
+}
+
+	}
+
+
+/*iPhone4 and iPhone5 Galaxy S2 and S3  */
+@media only screen and (max-width : 640px) {	}
+
+
+/* Google Nexus 7 603x966 | Samsung Galaxy Tab 600x1024  */
+@media only screen and (max-width : 603px) {	}
+
+
+/* iPhone 5 Landscape · 320x568px */
+@media only screen and (max-width : 568px) {	}
+
+
+/* Kindel Fire HD 8.9in (533x853) Tablets */
+@media only screen and (max-width : 533px) {	}
+
+
+/*iPhone3 Landscape*/
+@media only screen and (max-width : 480px) {	}
+
+
+/* iPhone 6 PLUS (414x736) */
+@media only screen and (max-width : 414px) {	
+
+.logowanie__box h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.logowanie-lft, .logowanie-rgt{
+	padding:0;
+}
+}
+
+
+/* iPhone 6 portrait (375x667) */
+@media only screen and (max-width : 375px ) {	}
+
+
+/* Galaxy S5 (360x640) */
+@media only screen and (max-width : 360px) {
+
+.logowanie__box{
+	padding: 15px;
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+	}
+
+
+/* iPhone 3/4 Blackberry8300 / LG/ AUSUS / S3 S4 */
+@media only screen and (max-width : 320px) {	}
+
+
+/*Galaxy Y*/
+@media only screen and (max-width : 240px) {	}
